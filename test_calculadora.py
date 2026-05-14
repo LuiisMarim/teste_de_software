@@ -90,6 +90,7 @@ def test_percentual_zero():
 def test_percentual_decimal():
     assert percentual(50, 2.5) == 1.25
 
+
 def test_percentual_negativo():
     with pytest.raises(ValueError):
         percentual(100, -5)
