@@ -31,7 +31,7 @@ def test_soma_dois_negativos():
 # ----------------------------------------------------------------
 
 def test_subtracao_resultado_positivo():
-    assert subtracao(10, 3) == 7
+    assert subtracao(10, 4) == 6
 
 
 def test_subtracao_resultado_negativo():
