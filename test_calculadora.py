@@ -113,3 +113,4 @@ def test_eh_par_numero_impar():
 
 def test_eh_par_zero():
     assert eh_par(0) is True
+    
